@@ -1,3 +1,63 @@
 body {
   background-color: #0d1a2d;
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+
+.box {
+  height: 430px;
+  width: auto;
+  background-color: #15263e;
+  border-radius: 15px;
+}
+
+img {
+  padding: 15px;
+  width: 200px;
+  border-radius: 15px;
+}
+
+.text1 {
+  color: white;
+  padding-left: 15px;
+}
+
+.text2 {
+  width: 200px;
+  padding-left: 15px;
+  color: #7a90af;
+}
+
+.img2 {
+  padding-left: 15px;
+  width: 8px;
+  padding-top: 6px;
+  float: left;
+}
+
+.text3 {
+  padding-top: 4px;
+  color: #21dcd9;
+}
+
+hr {
+  margin: 0px 20px;
+  /* color: #20324a; */
+  color: grey;
+}
+
+.avatar {
+  width: 20px;
+  border-color: white;
+  float: left;
+}
+
+.text4 {
+  float: left;
+}
+
+.text5 {
+  color: white;
+  margin-left: 130px;
 }
