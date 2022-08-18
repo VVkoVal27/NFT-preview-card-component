@@ -12,7 +12,7 @@ body {
   border-radius: 15px;
 }
 
-img {
+.img1 {
   padding: 15px;
   width: 200px;
   border-radius: 15px;
@@ -27,18 +27,20 @@ img {
   width: 200px;
   padding-left: 15px;
   color: #7a90af;
+  font-size: 15px;
 }
 
 .img2 {
-  padding-left: 15px;
   width: 8px;
   padding-top: 6px;
   float: left;
 }
 
 .text3 {
+  width: 100px;
   padding-top: 4px;
   color: #21dcd9;
+  padding-left: 15px;
 }
 
 hr {
@@ -49,15 +51,32 @@ hr {
 
 .avatar {
   width: 20px;
-  border-color: white;
+  border: 1px solid white;
   float: left;
+  border-radius: 15px;
+  margin: 15px 0px;
 }
 
 .text4 {
   float: left;
+  padding-left: 10px;
 }
 
 .text5 {
   color: white;
-  margin-left: 130px;
+  float: right;
+  padding-left: 10px;
+
+  /* margin-left: 130px; */
+}
+
+.bottom {
+  height: 50px;
+  padding: 0 15px;
+}
+
+.ETH {
+  padding-left: 15px;
+  font-family: "Outfit", sans-serif;
+  font-size: 12px;
 }
