@@ -21,6 +21,7 @@ body {
 .text1 {
   color: white;
   padding-left: 15px;
+  font-family: "Outfit", sans-serif;
 }
 
 .text2 {
@@ -28,19 +29,20 @@ body {
   padding-left: 15px;
   color: #7a90af;
   font-size: 15px;
+  font-family: "Outfit", sans-serif;
 }
 
 .img2 {
-  width: 8px;
-  padding-top: 6px;
-  float: left;
+  width: 10px;
+  padding-top: 12px;
+  height: 15px;
 }
 
 .text3 {
   width: 100px;
-  padding-top: 4px;
+  padding-top: 0px;
   color: #21dcd9;
-  padding-left: 15px;
+  padding-left: 5px;
 }
 
 hr {
@@ -59,13 +61,18 @@ hr {
 
 .text4 {
   float: left;
-  padding-left: 10px;
+  padding-left: 7px;
+  font-family: "Outfit", sans-serif;
+  color: #7a90af;
+  font-size: 12px;
+  padding-top: 5px;
 }
 
 .text5 {
   color: white;
   float: right;
-  padding-left: 10px;
+  padding-left: 4px;
+  font-family: "Outfit", sans-serif;
 
   /* margin-left: 130px; */
 }
@@ -78,5 +85,16 @@ hr {
 .ETH {
   padding-left: 15px;
   font-family: "Outfit", sans-serif;
-  font-size: 12px;
+  font-size: 11px;
+  display: inline-flex;
+}
+
+.cloak {
+  padding-top: 12px;
+  padding-right: 1px;
+}
+
+.text6 {
+  font-family: "Outfit", sans-serif;
+  color: #7a90af;
 }
